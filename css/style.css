@@ -12,6 +12,7 @@ body {
     color: #fff;
 }
 
+/* Visual inicial */
 .container-header {
     display: flex;
     justify-content: center;
@@ -44,4 +45,29 @@ body {
 
 .seta-rolagem {
     padding-top: 76px;
+}
+
+/* Sobre */
+.container-sobre {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 0px 100px;
+}
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo-apresentacao {
+    color: #2C47C7;
+    margin-bottom: 56px;
+    justify-content: center;
+}
+
+.texto-apresentacao {
+    font-size: 18px;
+    width: 628px;
+    text-align: justify;
 }
